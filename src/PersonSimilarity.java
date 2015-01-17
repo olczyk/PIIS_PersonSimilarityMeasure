@@ -83,7 +83,7 @@ public class PersonSimilarity {
 					}
 				}
 				
-				if(counter<10)
+				if(counter<=10)
 				{
 					BestMatchPerson bestMatch = new BestMatchPerson(similarityRate, i);
 					BestPersonMatches.add(bestMatch);

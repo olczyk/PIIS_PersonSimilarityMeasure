@@ -18,6 +18,6 @@ public class Main {
 		PersonSimilarity ps = new PersonSimilarity(Evaluations, MissingEvaluations, Movies);
 		ArrayList<Evaluation> PredictedEvaluations = ps.PredictEvaluations();
 		
-		util.SavePredictedEvaluationsToFile("result10.csv", PredictedEvaluations);
+		util.SavePredictedEvaluationsToFile("result9.csv", PredictedEvaluations);
 	}
 }
